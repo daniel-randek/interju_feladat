@@ -14,6 +14,7 @@ namespace InterjuFeladat
             this.cs = connections;
         }
 
+        //A databaseFiller a deszerializált adatokat feltölti az adott connectionstring-en elérhető adatbázisba
         public void databaseFiller(List<Country> data)
         {
             using var con = new NpgsqlConnection(cs);

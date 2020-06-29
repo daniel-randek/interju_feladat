@@ -15,6 +15,7 @@ namespace InterjuFeladat
             this.url = url;
         }
 
+        //A GetCountries az adott url-ről tölti le és deszerializálja az adatokat.
         public async Task<List<Country>> GetCountries()
         {
             HttpClient client = new HttpClient();
