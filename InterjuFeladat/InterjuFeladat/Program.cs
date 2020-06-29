@@ -4,9 +4,10 @@ namespace InterjuFeladat
 {
     class Program
     {
-        static void Main(string[] args)
+        static async System.Threading.Tasks.Task Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            WebApi webApi = new WebApi("https://restcountries.eu/rest/v2/all");
+            var countries = await webApi.GetCountries();
         }
     }
 }

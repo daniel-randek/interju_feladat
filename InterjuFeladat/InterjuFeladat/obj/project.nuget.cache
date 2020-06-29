@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "kj7NqNmYyF0UPFX3Ki80S73gbHaRM++k9Xy/gMfBdgJDgE5zOhnKzZiJ//n6Ze3pTLqVJjibtfvyMWZc2+DNAA==",
+  "dgSpecHash": "6g4Qx02dSPA+PcNht8Bd0NUL16xf8AegAFOMh0A7UtDATkVBmG+iVteScGkkSVUV/cvmCChcVS3cRpVSFU8EKA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Dan\\source\\repos\\daniel-randek\\interju_feladat\\InterjuFeladat\\InterjuFeladat\\InterjuFeladat.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Dan\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Dan\\.nuget\\packages\\npgsql\\4.1.3.1\\npgsql.4.1.3.1.nupkg.sha512",
+    "C:\\Users\\Dan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
+  ],
   "logs": []
 }
